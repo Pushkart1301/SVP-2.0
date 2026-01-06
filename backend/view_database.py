@@ -19,10 +19,8 @@ def print_section(title):
 
 def format_doc(doc):
     """Convert MongoDB document to pretty JSON"""
-    # Convert ObjectId to string
     if '_id' in doc:
         doc['_id'] = str(doc['_id'])
-    # Convert datetime to string
     for key, value in doc.items():
         if isinstance(value, datetime):
             doc[key] = value.isoformat()

@@ -56,7 +56,7 @@ export default function Home() {
                         🚀 AI-Powered Academic Assistant
                     </div>
                     <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-slate-900 mb-6">
-                        Master Your <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Attendance</span>
+                        Master Your <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Academics</span>
                     </h1>
                     <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto mb-8">
                         Smart attendance tracking, AI-powered vacation planning, and personalized study recommendations—all in one place.
